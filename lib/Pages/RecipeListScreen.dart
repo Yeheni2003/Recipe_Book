@@ -18,7 +18,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '1',
       title: 'Pasta Carbonara',
       description: 'Classic Italian pasta dish with eggs, cheese, and bacon.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Pasta_Carbonara.webp',
       ingredients: [
         '200g spaghetti',
         '100g pancetta or bacon',
@@ -439,15 +439,15 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                         Container(
                           height: 150,
                           width: double.infinity,
-                          color: Colors.grey[300],
-                          child: Center(
-                            child: Icon(
-                              Icons.restaurant,
-                              size: 50,
-                              color: Theme.of(context).colorScheme.primary,
-                            ),
+                          child: Image.asset(
+                            recipe.imageUrl,
+                            fit: BoxFit.cover,
+                            errorBuilder: (context, error, stackTrace) {
+                              return Center(child: Icon(Icons.broken_image));
+                            },
                           ),
                         ),
+
                         Padding(
                           padding: const EdgeInsets.all(10),
                           child: Column(
