@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_app/Pages/Splash_Screen.dart';
 import 'Pages/RecipeListScreen.dart';
 
 void main() {
@@ -16,8 +17,9 @@ class RecipeApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
+        fontFamily: 'Poppins'
       ),
-      home: const RecipeListScreen(),
+      home: const SplashScreen(),
     );
   }
 }
