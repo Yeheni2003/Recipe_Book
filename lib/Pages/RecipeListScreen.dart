@@ -44,7 +44,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '2',
       title: 'Avocado Toast',
       description: 'Simple and nutritious breakfast with avocado on toast.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Avacado_Toast.png',
       ingredients: [
         '1 ripe avocado',
         '2 slices of bread',
@@ -67,7 +67,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '3',
       title: 'Chocolate Brownies',
       description: 'Rich and fudgy chocolate brownies for dessert lovers.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Chocolate_Brownies.png',
       ingredients: [
         '200g dark chocolate',
         '175g butter',
@@ -92,7 +92,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '4',
       title: 'Greek Salad',
       description: 'Fresh and healthy Mediterranean salad with feta cheese.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Greek_Salad.png',
       ingredients: [
         'Cucumber',
         'Tomatoes',
@@ -120,7 +120,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '5',
       title: 'Tomato Soup',
       description: 'Creamy homemade tomato soup with fresh basil.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Tomato_Soup.png',
       ingredients: [
         '1kg ripe tomatoes',
         '1 onion, chopped',
@@ -147,7 +147,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '6',
       title: 'Spinach and Feta Stuffed Mushrooms',
       description: 'Delicious vegetarian appetizer perfect for parties.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Spinach_And_Feta_Stuffed_Mushrooms.png',
       ingredients: [
         '12 large mushrooms',
         '150g spinach',
@@ -174,7 +174,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '7',
       title: 'Vegan Buddha Bowl',
       description: 'Nutritious bowl packed with plant-based goodness.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Avacado_Toast.png',
       ingredients: [
         '1 cup quinoa',
         '1 sweet potato',
@@ -202,7 +202,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '8',
       title: 'Berry Smoothie',
       description: 'Refreshing mixed berry smoothie perfect for breakfast or snack.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Berry_Smoothie.png',
       ingredients: [
         '1 cup mixed berries (strawberries, blueberries, raspberries)',
         '1 banana',
@@ -225,7 +225,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '9',
       title: 'Vegetable Stir Fry',
       description: 'Quick and colorful vegetarian stir fry with soy sauce.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Vegetable_Stir_Fry.png',
       ingredients: [
         'Broccoli florets',
         'Carrot, julienned',
@@ -256,7 +256,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '10',
       title: 'Beef Lasagna',
       description: 'Classic Italian lasagna with rich meat sauce and cheese.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Beef_Lasagna.png',
       ingredients: [
         '500g ground beef',
         '1 onion, finely chopped',
@@ -288,7 +288,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '11',
       title: 'Pancakes',
       description: 'Fluffy homemade pancakes perfect for a weekend breakfast.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Pancakes.png',
       ingredients: [
         '200g all-purpose flour',
         '2 tbsp sugar',
@@ -318,7 +318,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       id: '12',
       title: 'Chicken Tikka Masala',
       description: 'Flavorful Indian curry with tender chicken in a creamy tomato sauce.',
-      imageUrl: 'placeholder',
+      imageUrl: 'assets/images/Chicken_Tikka_Masala.png',
       ingredients: [
         '500g chicken breast, cubed',
         '1 cup yogurt',

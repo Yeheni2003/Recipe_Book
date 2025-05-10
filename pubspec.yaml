@@ -58,6 +58,18 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/Pasta_Carbonara.webp
+    - assets/images/Avacado_Toast.png
+    - assets/images/Beef_Lasagna.png
+    - assets/images/Berry_Smoothie.png
+    - assets/images/Chicken_Tikka_Masala.png
+    - assets/images/Chocolate_Brownies.png
+    - assets/images/Greek_Salad.png
+    - assets/images/Pancakes.png
+    - assets/images/Spinach_And_Feta_Stuffed_Mushrooms.png
+    - assets/images/Tomato_Soup.png
+    - assets/images/Vegan_Buddha_Bowl.png
+    - assets/images/Vegetable_Stir_Fry.png
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
